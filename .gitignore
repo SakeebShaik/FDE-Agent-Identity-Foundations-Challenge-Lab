@@ -1,0 +1,25 @@
+# Secrets & Environment Files (NEVER COMMIT)
+.env
+*.env
+!.env.example
+
+# Python & Tooling Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Cloud / Deployment Artifacts
+deployment_metadata.json
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# OS & Editor Files
+.DS_Store
+.vscode/
+.idea/
